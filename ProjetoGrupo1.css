@@ -1,0 +1,53 @@
+/* reset CSS style.css in page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background: oldlace;*/
+}
+/*inicio do menu da page*/
+.snul {
+    background: gold;
+}
+
+.alin1 ul li {display: inline-block;}
+
+.luns {
+    background: black;
+}
+
+.alin2 ul li {display: inline-block;}
+/* fim menu page ^ */
+
+/*ini mein page*/
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-wp {
+    width: 99vw;
+    height: 27vw;
+    background-image: url();
+}
+
+.div-main {
+    background: white;
+    color: black;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    /*grid-template-areas: 'grid-item-box1 grid-item-box1 grid-item-box1'
+                         'grid-item-box2 grid-item-box2 grid-item-box2'
+                         'grid-item-box3 grid-item-box3 grid-item-box3';*/
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+}
